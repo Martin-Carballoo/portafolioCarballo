@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+}
+
+nav a {
+    margin: 0 10px; /* Espacio horizontal entre los botones */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+h3 {
+    text-align: center;
+    border: 3px solid rgb(156, 134, 134);
+    padding: 10px;
+    border-radius: 8px; 
+    background-color: #f0f8ff;
+    display: inline-block;
+}
+
+.texto{
+    border: groove  rgba(55, 42, 42, 0.966); /* Borde discontinuo */
+    background-color: rgb(45, 47, 58); /* Color de fondo */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+html {
+    background-image: url(imagencss/imagen5.jpg); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el elemento */
+    background-position: center; /* Centra la imagen en el elemento */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+footer{
+    border: groove  rgba(55, 42, 42, 0.966); /* Borde discontinuo */
+    background-color: rgb(45, 47, 58); /* Color de fondo */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0; /* Lo coloca en la parte inferior */
+    left: 0;
+ }
+.footer-contenedor {
+    display: flex; /* Usamos Flexbox para organizar el texto y la imagen */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    gap: 20px; /* Espacio entre el texto y el logo */
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
